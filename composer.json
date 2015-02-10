@@ -1,0 +1,31 @@
+{
+  "name": "mawoscha/german-localepack-id-id",
+  "type": "magento-module",
+  "license":"OSL-3.0",
+  "description":"Indonesian (Indonesia) Community Translation",
+  "authors":[
+    {
+      "name":"MaWoScha"
+    }
+  ],
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "extra": {
+    "magento-root-dir": "./",
+    "magento-deploystrategy": "copy",
+    "map": [
+      ["./app/code/community/German/LocalePackId", "./app/code/community/German/LocalePackId"],
+      ["./app/etc/modules/German_LocalePackId.xml", "./app/etc/modules/German_LocalePackId.xml"],
+      ["./app/locale/de_DE/German_LocaleId.csv", "./app/locale/de_DE/German_LocaleId.csv"],
+      ["./app/locale/en_US/German_LocaleId.csv", "./app/locale/en_US/German_LocaleId.csv"],
+      ["./app/locale/es_ES/German_LocaleId.csv", "./app/locale/es_ES/German_LocaleId.csv"],
+      ["./app/locale/fr_FR/German_LocaleId.csv", "./app/locale/fr_FR/German_LocaleId.csv"],
+      ["./app/locale/id_ID/German_LocaleId.csv", "./app/locale/id_ID/German_LocaleId.csv"],
+      ["./app/locale/pt_PT/German_LocaleId.csv", "./app/locale/pt_PT/German_LocaleId.csv"]
+    ]
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}

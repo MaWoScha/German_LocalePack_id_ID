@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category  German
+ * @package   German_LocalePack
+ * @authors   MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
+ * @developer MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
+ * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+<config>
+    <modules>
+        <German_LocalePackId>
+            <version>0.1.0</version>
+            <locale>id_ID</locale>
+            <title>Indonesian (Indonesia) Language Pack</title>
+            <link_git>https://github.com/MaWoScha/German_LocalePack_id_ID</link_git>
+            <link_mage>http://www.magentocommerce.com/magento-connect/indonesian-language-pack.html</link_mage>
+            <mage_key>http://connect20.magentocommerce.com/community/Indonesia_Locale</mage_key>
+        </German_LocalePackId>
+    </modules>
+
+    <global>
+        <models>
+            <localepackid>
+                <class>German_LocalePackId_Model</class>
+            </localepackid>
+        </models>
+        <helpers>
+            <localepackid>
+                <class>German_LocalePackId_Helper</class>
+            </localepackid>
+        </helpers>
+        <blocks>
+            <localepackid>
+                <class>German_LocalePackId_Block</class>
+            </localepackid>
+        </blocks>
+        <events>
+            <adminhtml_controller_action_predispatch_start>
+                <observers>
+                    <localepackid>
+                        <class>localepackid/observer</class>
+                        <method>adminhtmlControllerActionPredispatchStart</method>
+                    </localepackid>
+                </observers>
+            </adminhtml_controller_action_predispatch_start>
+        </events>
+    </global>
+
+    <default>
+        <localepackid>
+             <notification>
+                <url>https://github.com/MaWoScha/German_LocalePack_id_ID</url>
+            </notification>
+        </localepackid>
+        <magesetup>
+            <default_country>ID</default_country>
+        </magesetup>
+    </default>
+
+    <adminhtml>
+        <translate>
+            <modules>
+                <German_LocalePackId>
+                    <files>
+                        <default>German_LocaleId.csv</default>
+                    </files>
+                </German_LocalePackId>
+            </modules>
+        </translate>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children> <!--
+                                        <localepacks translate="title" module="localepackid">
+                                            <title>Language Packs</title>
+                                            <children> -->
+                                                <localepackid translate="title" module="localepackid">
+                                                    <title>Indonesian (Indonesia) Language Pack</title>
+                                                </localepackid> <!--
+                                            </children>
+                                        </localepacks> -->
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+
+</config>
