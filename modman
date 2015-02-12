@@ -70,6 +70,10 @@ app/locale/id_ID/template/email/sitemap_generate_warning.html app/locale/id_ID/t
 app/locale/id_ID/template/email/token.html app/locale/id_ID/template/email/token.html
 app/locale/id_ID/template/email/wishlist_share.html app/locale/id_ID/template/email/wishlist_share.html
 
+#Email subtemplates
+app/locale/id_ID/template/email/html/footer.html app/locale/id_ID/template/email/html/footer.html
+app/locale/id_ID/template/email/html/header.html app/locale/id_ID/template/email/html/header.html
+
 #Email Sales Templates
 app/locale/id_ID/template/email/sales/creditmemo_new_guest.html app/locale/id_ID/template/email/sales/creditmemo_new_guest.html
 app/locale/id_ID/template/email/sales/creditmemo_new.html app/locale/id_ID/template/email/sales/creditmemo_new.html
