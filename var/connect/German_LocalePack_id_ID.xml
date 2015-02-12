@@ -13,7 +13,7 @@ Indonesian language pack for Magento Commerce
 Paquete de idioma indonesio para Magento Commerce</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>0.2.0</version>
+   <version>0.3.0</version>
    <stability>stable</stability>
    <notes>Compatible with Magento (1.6.2) 1.7.0.x-1.9.2.x</notes>
    <authors>
@@ -62,8 +62,27 @@ Paquete de idioma indonesio para Magento Commerce</description>
    <contents>
       <target>
          <target>magelocal</target>
+         <target>magedesign</target>
          <target>magecommunity</target>
          <target>mageetc</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
          <target>mage</target>
          <target>mage</target>
          <target>magelocale</target>
@@ -75,10 +94,29 @@ Paquete de idioma indonesio para Magento Commerce</description>
       </target>
       <path>
          <path/>
+         <path>adminhtml/default/default/layout/localepackid.xml</path>
          <path>German/LocalePackId</path>
          <path>modules/German_LocalePackId.xml</path>
          <path>downloader/template_id_1.5</path>
          <path>downloader/template_id_1.7</path>
+         <path>js/german/localepackid/setup.js</path>
+         <path>js/tiny_mce/langs/id.js</path>
+         <path>js/tiny_mce/plugins/advhr/langs/id_dlg.js</path>
+         <path>js/tiny_mce/plugins/advimage/langs/id_dlg.js</path>
+         <path>js/tiny_mce/plugins/advlink/langs/id_dlg.js</path>
+         <path>js/tiny_mce/plugins/autosave/langs/id.js</path>
+         <path>js/tiny_mce/plugins/emotions/langs/id_dlg.js</path>
+         <path>js/tiny_mce/plugins/fullpage/langs/id_dlg.js</path>
+         <path>js/tiny_mce/plugins/media/langs/id_dlg.js</path>
+         <path>js/tiny_mce/plugins/paste/langs/id_dlg.js</path>
+         <path>js/tiny_mce/plugins/searchreplace/langs/id_dlg.js</path>
+         <path>js/tiny_mce/plugins/style/langs/id_dlg.js</path>
+         <path>js/tiny_mce/plugins/table/langs/id_dlg.js</path>
+         <path>js/tiny_mce/plugins/template/langs/id_dlg.js</path>
+         <path>js/tiny_mce/plugins/xhtmlxtras/langs/id_dlg.js</path>
+         <path>js/tiny_mce/themes/advanced/langs/id.js</path>
+         <path>js/tiny_mce/themes/advanced/langs/id_dlg.js</path>
+         <path>js/tiny_mce/themes/simple/langs/id.js</path>
          <path>de_DE/German_LocaleId.csv</path>
          <path>en_US/German_LocaleId.csv</path>
          <path>es_ES/German_LocaleId.csv</path>
@@ -88,10 +126,29 @@ Paquete de idioma indonesio para Magento Commerce</description>
       </path>
       <type>
          <type>file</type>
+         <type>file</type>
          <type>dir</type>
          <type>file</type>
          <type>dir</type>
          <type>dir</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -111,9 +168,47 @@ Paquete de idioma indonesio para Magento Commerce</description>
          <include/>
          <include/>
          <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
