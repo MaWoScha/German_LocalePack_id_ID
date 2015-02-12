@@ -46,6 +46,47 @@ app/locale/pt_PT/German_LocaleId.csv app/locale/pt_PT/German_LocaleId.csv
 #CoreTranslation
 
 #Email templates
+app/locale/id_ID/template/email/account_new_confirmation.html app/locale/id_ID/template/email/account_new_confirmation.html
+app/locale/id_ID/template/email/account_new_confirmed.html app/locale/id_ID/template/email/account_new_confirmed.html
+app/locale/id_ID/template/email/account_new.html app/locale/id_ID/template/email/account_new.html
+app/locale/id_ID/template/email/account_password_reset_confirmation.html app/locale/id_ID/template/email/account_password_reset_confirmation.html
+app/locale/id_ID/template/email/admin_password_new.html app/locale/id_ID/template/email/admin_password_new.html
+app/locale/id_ID/template/email/admin_password_reset_confirmation.html app/locale/id_ID/template/email/admin_password_reset_confirmation.html
+app/locale/id_ID/template/email/amazonpayments_asp_notification_error.html app/locale/id_ID/template/email/amazonpayments_asp_notification_error.html
+app/locale/id_ID/template/email/contact_form.html app/locale/id_ID/template/email/contact_form.html
+app/locale/id_ID/template/email/currency_update_warning.html app/locale/id_ID/template/email/currency_update_warning.html
+app/locale/id_ID/template/email/log_clean_warning.html app/locale/id_ID/template/email/log_clean_warning.html
+app/locale/id_ID/template/email/moneybookers_activateemail.html app/locale/id_ID/template/email/moneybookers_activateemail.html
+app/locale/id_ID/template/email/newsletter_subscr_confirm.html app/locale/id_ID/template/email/newsletter_subscr_confirm.html
+app/locale/id_ID/template/email/newsletter_subscr_success.html app/locale/id_ID/template/email/newsletter_subscr_success.html
+app/locale/id_ID/template/email/newsletter_unsub_success.html app/locale/id_ID/template/email/newsletter_unsub_success.html
+app/locale/id_ID/template/email/password_new.html app/locale/id_ID/template/email/password_new.html
+app/locale/id_ID/template/email/payment_failed.html app/locale/id_ID/template/email/payment_failed.html
+app/locale/id_ID/template/email/product_alert_cron_error.html app/locale/id_ID/template/email/product_alert_cron_error.html
+app/locale/id_ID/template/email/product_price_alert.html app/locale/id_ID/template/email/product_price_alert.html
+app/locale/id_ID/template/email/product_share.html app/locale/id_ID/template/email/product_share.html
+app/locale/id_ID/template/email/product_stock_alert.html app/locale/id_ID/template/email/product_stock_alert.html
+app/locale/id_ID/template/email/sitemap_generate_warning.html app/locale/id_ID/template/email/sitemap_generate_warning.html
+app/locale/id_ID/template/email/token.html app/locale/id_ID/template/email/token.html
+app/locale/id_ID/template/email/wishlist_share.html app/locale/id_ID/template/email/wishlist_share.html
+
+#Email Sales Templates
+app/locale/id_ID/template/email/sales/creditmemo_new_guest.html app/locale/id_ID/template/email/sales/creditmemo_new_guest.html
+app/locale/id_ID/template/email/sales/creditmemo_new.html app/locale/id_ID/template/email/sales/creditmemo_new.html
+app/locale/id_ID/template/email/sales/creditmemo_update_guest.html app/locale/id_ID/template/email/sales/creditmemo_update_guest.html
+app/locale/id_ID/template/email/sales/creditmemo_update.html app/locale/id_ID/template/email/sales/creditmemo_update.html
+app/locale/id_ID/template/email/sales/invoice_new_guest.html app/locale/id_ID/template/email/sales/invoice_new_guest.html
+app/locale/id_ID/template/email/sales/invoice_new.html app/locale/id_ID/template/email/sales/invoice_new.html
+app/locale/id_ID/template/email/sales/invoice_update_guest.html app/locale/id_ID/template/email/sales/invoice_update_guest.html
+app/locale/id_ID/template/email/sales/invoice_update.html app/locale/id_ID/template/email/sales/invoice_update.html
+app/locale/id_ID/template/email/sales/order_new_guest.html app/locale/id_ID/template/email/sales/order_new_guest.html
+app/locale/id_ID/template/email/sales/order_new.html app/locale/id_ID/template/email/sales/order_new.html
+app/locale/id_ID/template/email/sales/order_update_guest.html app/locale/id_ID/template/email/sales/order_update_guest.html
+app/locale/id_ID/template/email/sales/order_update.html app/locale/id_ID/template/email/sales/order_update.html
+app/locale/id_ID/template/email/sales/shipment_new_guest.html app/locale/id_ID/template/email/sales/shipment_new_guest.html
+app/locale/id_ID/template/email/sales/shipment_new.html app/locale/id_ID/template/email/sales/shipment_new.html
+app/locale/id_ID/template/email/sales/shipment_update_guest.html app/locale/id_ID/template/email/sales/shipment_update_guest.html
+app/locale/id_ID/template/email/sales/shipment_update.html app/locale/id_ID/template/email/sales/shipment_update.html
 
 
 
