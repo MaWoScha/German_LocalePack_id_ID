@@ -11,7 +11,7 @@
 <config>
     <modules>
         <German_LocalePackId>
-            <version>0.3.9</version>
+            <version>0.4.0</version>
             <locale>id_ID</locale>
             <title>Indonesian (Indonesia) Language Pack</title>
             <link_git>https://github.com/MaWoScha/German_LocalePack_id_ID</link_git>
