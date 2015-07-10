@@ -73,6 +73,7 @@ app/locale/id_ID/template/email/wishlist_share.html app/locale/id_ID/template/em
 #Email subtemplates
 app/locale/id_ID/template/email/html/footer.html app/locale/id_ID/template/email/html/footer.html
 app/locale/id_ID/template/email/html/header.html app/locale/id_ID/template/email/html/header.html
+app/locale/id_ID/template/email/html/support.html app/locale/id_ID/template/email/html/support.html
 
 #Email Sales Templates
 app/locale/id_ID/template/email/sales/creditmemo_new_guest.html app/locale/id_ID/template/email/sales/creditmemo_new_guest.html
