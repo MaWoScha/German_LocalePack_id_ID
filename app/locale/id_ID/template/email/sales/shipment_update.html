@@ -21,7 +21,7 @@
     <tr>
         <td class="action-content">
             <h1>{{block type="cms/block" block_id="email_template_say_hello"}} {{htmlescape var=$order.getCustomerName()}}</h1>
-            <p>Your order <span class="no-link">#{{var order.increment_id}}</span> has been updated to: <strong>{{var order.getStatusLabel()}}</strong></p>
+            <p>Pesanan anda <span class="no-link">#{{var order.increment_id}}</span> telah <strong>{{var order.getStatusLabel()}}</strong>.</p>
             {{if comment}}
             <table cellspacing="0" cellpadding="0" class="message-container">
                 <tr>
@@ -29,7 +29,7 @@
                 </tr>
             </table>
             {{/if}}
-            <p>You can check the status of your order by <a href="{{store url="customer/account/"}}">logging into your account</a>.</p>
+            <p>Anda dapat memeriksa status pesanan dengan <a href="{{store url="customer/account/"}}">masuk ke dalam akun anda</a>.</p>
             <p>
                 {{block type="cms/block" block_id="email_template_contact"}}
             </p>
